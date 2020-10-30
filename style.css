@@ -1,0 +1,93 @@
+.contenedor {
+  width: 550px;
+  height: 550px;
+}
+
+.logoOficial {
+  padding-top: 50px;
+  width: 250px;
+  height: 250px;
+}
+
+.texto1,
+.texto2 {
+  font-size: 30px;
+  font-family: Impact;
+}
+
+.texto1 {
+  color: #4fd8e2;
+}
+.texto2 {
+  color: white;
+}
+
+.separator {
+  width: 300px;
+  color: #4fd8e2;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 2px;
+  background-color: #4fd8e2;
+}
+
+.texto3 {
+  font-size: 30px;
+  font-family: Bebas Neue;
+  color: white;
+}
+
+.detalle1,
+.detalle2 {
+  position: absolute;
+}
+.detalle1 {
+  top: 1px;
+  right: 0px;
+  width: 150px;
+}
+
+.detalle2 {
+  top: 200px;
+  left: 0;
+  width: 150px;
+}
+@media (max-width: 600px) {
+  .detalle1 {
+    width: 100px;
+  }
+  .detalle2 {
+    width: 100px;
+  }
+}
+@media (max-width: 400px) {
+  .detalle1 {
+    width: 50px;
+  }
+  .detalle2 {
+    width: 50px;
+  }
+  .separator {
+    width: 200px;
+  }
+  .logoOficial {
+    padding-top: 50px;
+    width: 200px;
+    height: 200px;
+  }
+  .texto1,
+  .texto2 {
+    font-size: 25px;
+  }
+  .texto3 {
+    font-size: 25px;
+  }
+  .contenedor {
+    width: 100%;
+  }
+}
+@font-face {
+  font-family: Impact;
+  src: url("./resource/font/impact.ttf");
+}
